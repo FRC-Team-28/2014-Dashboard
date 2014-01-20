@@ -21,6 +21,23 @@
 			<Item Name="Open Playback Panel.vi" Type="VI" URL="../Open Playback Panel.vi"/>
 			<Item Name="Build Simple Skeleton Data.vi" Type="VI" URL="../Build Simple Skeleton Data.vi"/>
 		</Item>
+		<Item Name="Vision Code" Type="Folder">
+			<Item Name="Ball Detection.vi" Type="VI" URL="../Vision Code/Ball Detection.vi"/>
+			<Item Name="Calibration Helper.vi" Type="VI" URL="../Vision Code/Calibration Helper.vi"/>
+			<Item Name="Circle Coverage Score.vi" Type="VI" URL="../Vision Code/Circle Coverage Score.vi"/>
+			<Item Name="Compare Rects.vi" Type="VI" URL="../Vision Code/Compare Rects.vi"/>
+			<Item Name="Create Annulus from Rectangle.vi" Type="VI" URL="../Vision Code/Create Annulus from Rectangle.vi"/>
+			<Item Name="Fit Circle to Find Ball.vi" Type="VI" URL="../Vision Code/Fit Circle to Find Ball.vi"/>
+			<Item Name="Get Ball Angle.vi" Type="VI" URL="../Vision Code/Get Ball Angle.vi"/>
+			<Item Name="Label Particles.vi" Type="VI" URL="../Vision Code/Label Particles.vi"/>
+			<Item Name="Normalize Path.vi" Type="VI" URL="../Vision Code/Normalize Path.vi"/>
+			<Item Name="Normalized to Scored.vi" Type="VI" URL="../Vision Code/Normalized to Scored.vi"/>
+			<Item Name="Predict Search Rectangle from Particle.vi" Type="VI" URL="../Vision Code/Predict Search Rectangle from Particle.vi"/>
+			<Item Name="Process Image for Balls.vi" Type="VI" URL="../Vision Code/Process Image for Balls.vi"/>
+			<Item Name="Score and Rank Objects.vi" Type="VI" URL="../Vision Code/Score and Rank Objects.vi"/>
+			<Item Name="Score and Sort Objects.vi" Type="VI" URL="../Vision Code/Score and Sort Objects.vi"/>
+			<Item Name="Sorted Particle Report.vi" Type="VI" URL="../Vision Code/Sorted Particle Report.vi"/>
+		</Item>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -188,6 +205,22 @@
 				<Item Name="WPI_DashboardSave DB Images.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Dashboard/WPI_DashboardSave DB Images.vi"/>
 				<Item Name="WPI_DashboardUpdate Table Values.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Dashboard/WPI_DashboardUpdate Table Values.vi"/>
 				<Item Name="IMAQ Overlay Rectangle" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Rectangle"/>
+				<Item Name="SD Write Boolean.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Boolean.vi"/>
+				<Item Name="SD Write Name Cache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Name Cache.vi"/>
+				<Item Name="SD Write Number.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Number.vi"/>
+				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
+				<Item Name="Particle Parameters" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Particle Parameters"/>
+				<Item Name="IMAQ GetImageSize" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ GetImageSize"/>
+				<Item Name="ROI Descriptor" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/ROI Descriptor"/>
+				<Item Name="IMAQ Circle" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Circle"/>
+				<Item Name="IMAQ Convert Annulus to ROI" Type="VI" URL="/&lt;vilib&gt;/vision/ROI Conversion.llb/IMAQ Convert Annulus to ROI"/>
+				<Item Name="Edge Options.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Measure.llb/Edge Options.ctl"/>
+				<Item Name="Edge Polarity.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Measure.llb/Edge Polarity.ctl"/>
+				<Item Name="IMAQ Coordinate System" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Coordinate System"/>
+				<Item Name="IMAQ Overlay Line" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Line"/>
+				<Item Name="IMAQ Overlay Oval" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Oval"/>
+				<Item Name="IMAQ Overlay Text" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Text"/>
+				<Item Name="IMAQ ReadFile" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ ReadFile"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
