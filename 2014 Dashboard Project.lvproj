@@ -20,23 +20,7 @@
 			<Item Name="Initialize Camera and CheckList.vi" Type="VI" URL="../Initialize Camera and CheckList.vi"/>
 			<Item Name="Open Playback Panel.vi" Type="VI" URL="../Open Playback Panel.vi"/>
 			<Item Name="Build Simple Skeleton Data.vi" Type="VI" URL="../Build Simple Skeleton Data.vi"/>
-		</Item>
-		<Item Name="Vision Code" Type="Folder">
-			<Item Name="Ball Detection.vi" Type="VI" URL="../Vision Code/Ball Detection.vi"/>
-			<Item Name="Calibration Helper.vi" Type="VI" URL="../Vision Code/Calibration Helper.vi"/>
-			<Item Name="Circle Coverage Score.vi" Type="VI" URL="../Vision Code/Circle Coverage Score.vi"/>
-			<Item Name="Compare Rects.vi" Type="VI" URL="../Vision Code/Compare Rects.vi"/>
-			<Item Name="Create Annulus from Rectangle.vi" Type="VI" URL="../Vision Code/Create Annulus from Rectangle.vi"/>
-			<Item Name="Fit Circle to Find Ball.vi" Type="VI" URL="../Vision Code/Fit Circle to Find Ball.vi"/>
-			<Item Name="Get Ball Angle.vi" Type="VI" URL="../Vision Code/Get Ball Angle.vi"/>
-			<Item Name="Label Particles.vi" Type="VI" URL="../Vision Code/Label Particles.vi"/>
-			<Item Name="Normalize Path.vi" Type="VI" URL="../Vision Code/Normalize Path.vi"/>
-			<Item Name="Normalized to Scored.vi" Type="VI" URL="../Vision Code/Normalized to Scored.vi"/>
-			<Item Name="Predict Search Rectangle from Particle.vi" Type="VI" URL="../Vision Code/Predict Search Rectangle from Particle.vi"/>
-			<Item Name="Process Image for Balls.vi" Type="VI" URL="../Vision Code/Process Image for Balls.vi"/>
-			<Item Name="Score and Rank Objects.vi" Type="VI" URL="../Vision Code/Score and Rank Objects.vi"/>
-			<Item Name="Score and Sort Objects.vi" Type="VI" URL="../Vision Code/Score and Sort Objects.vi"/>
-			<Item Name="Sorted Particle Report.vi" Type="VI" URL="../Vision Code/Sorted Particle Report.vi"/>
+			<Item Name="Calculate Ball Trajectory.vi" Type="VI" URL="../Calculate Ball Trajectory.vi"/>
 		</Item>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -208,6 +192,8 @@
 				<Item Name="SD Write Name Cache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Name Cache.vi"/>
 				<Item Name="SD Write Number.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Number.vi"/>
 				<Item Name="SD Write Boolean.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Boolean.vi"/>
+				<Item Name="SD Read Name Cache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read Name Cache.vi"/>
+				<Item Name="SD Read Numeric Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read Numeric Array.vi"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
