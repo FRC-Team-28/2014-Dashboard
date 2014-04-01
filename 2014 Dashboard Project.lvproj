@@ -22,7 +22,6 @@
 			<Item Name="Build Simple Skeleton Data.vi" Type="VI" URL="../Build Simple Skeleton Data.vi"/>
 		</Item>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
-		<Item Name="Target Detection.vi" Type="VI" URL="../Target Detection.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
@@ -193,11 +192,7 @@
 				<Item Name="SD Read Boolean.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read Boolean.vi"/>
 				<Item Name="SD Read Name Cache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read Name Cache.vi"/>
 				<Item Name="SD Write Numeric Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Numeric Array.vi"/>
-				<Item Name="Particle Parameters" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Particle Parameters"/>
-				<Item Name="IMAQ GetImageSize" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ GetImageSize"/>
-				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
 				<Item Name="IMAQ Overlay Rectangle" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Rectangle"/>
-				<Item Name="IMAQ Overlay Text" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Text"/>
 				<Item Name="SD Write Boolean.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Boolean.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -246,17 +241,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
-			<Item Name="TargetType.ctl" Type="VI" URL="../Support/TargetType.ctl"/>
-			<Item Name="Process Image for Target.vi" Type="VI" URL="../Support/Process Image for Target.vi"/>
-			<Item Name="Sorted Particle Report.vi" Type="VI" URL="../Support/Sorted Particle Report.vi"/>
-			<Item Name="Aspect Ratio Score.vi" Type="VI" URL="../Support/Aspect Ratio Score.vi"/>
-			<Item Name="Rectangularity Score.vi" Type="VI" URL="../Support/Rectangularity Score.vi"/>
-			<Item Name="Score and Rank Target Objects.vi" Type="VI" URL="../Support/Score and Rank Target Objects.vi"/>
-			<Item Name="Separate Particles.vi" Type="VI" URL="../Support/Separate Particles.vi"/>
-			<Item Name="Rank HV combos.vi" Type="VI" URL="../Support/Rank HV combos.vi"/>
-			<Item Name="Label Targets.vi" Type="VI" URL="../Support/Label Targets.vi"/>
-			<Item Name="Compute Target Distances.vi" Type="VI" URL="../Support/Compute Target Distances.vi"/>
-			<Item Name="Compute DistanceToTarget.vi" Type="VI" URL="../Support/Compute DistanceToTarget.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC PC Dashboard" Type="EXE">
