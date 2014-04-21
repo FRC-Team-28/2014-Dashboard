@@ -1,13 +1,5 @@
-<head><version>2.61.15</version></head>
-<Load_Image>
-  <filename>C:\Users\Lucas\Dropbox\2014 Target Detection Desktop\2014 Pseudo-Target\2014 Pseudo-Target Active\27ft_LeftCenter1.jpg</filename>
-  <frame_delay>33</frame_delay>
-  <load_numbered_images>FALSE</load_numbered_images>
-  <numerical_sort>TRUE</numerical_sort>
-  <page_number>1</page_number>
-  <recursive>TRUE</recursive>
-</Load_Image>
-<Axis_Internet_Camera disabled>
+<head><version>2.61.21</version></head>
+<Axis_Internet_Camera>
   <auto_back_light>TRUE</auto_back_light>
   <auto_exposure>FALSE</auto_exposure>
   <auto_white_balance>TRUE</auto_white_balance>
